@@ -15,6 +15,7 @@ class Parent extends Component {
     }
 
     render(){
+        // you'll need to pass the current value and both of the methods as props to the child below
         return(
             <div>
                 <Child 

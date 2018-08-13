@@ -7,11 +7,12 @@ class Child extends Component {
     }
 
     render(){
+        // here you'll need to fill in the current value and the onClicks for both buttons. All three of those things are being passed as props right now from the parent.
         return(
             <div>
-                <h3>Current Value: {this.props.value}</h3>
-                <button onClick={this.props.increment}>Increment</button>
-                <button onClick={this.props.decrement}>Decrement</button>
+                <h3>Current Value: {/* the current value prop here */}</h3>
+                <button onClick={/* add method to increment here */}>Increment</button>
+                <button onClick={/* add method to decrement here */}>Decrement</button>
             </div>
         )
     }
